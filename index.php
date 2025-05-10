@@ -11,9 +11,6 @@
 <body>
     <header>
         <div class="container">
-            <div class="logo">
-                <h1>My Website</h1>
-            </div>
 
             <!-- First navigation -->
             <nav class="nav1">
