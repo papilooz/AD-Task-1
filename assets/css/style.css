@@ -13,7 +13,7 @@ body {
 }
 
 nav.nav1 { /* Target the navigation */
-    /* Keep the background color for the navigation itself if desired */
+    background-color: rgb(207, 185, 151); /* New background color for the navigation */
     text-align: center; /* Center the ul within the nav */
 }
 
@@ -35,13 +35,12 @@ nav.nav1 ul li:last-child {
 
 nav.nav1 ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 10px;
 }
 
 header {
-    /* Remove the background color to make it transparent */
-    background-color: transparent;
+    background-color: rgb(207, 185, 151); /* New background color for the header */
     padding: 10px 0; /* Keep padding if you need spacing */
 }
 
