@@ -7,32 +7,30 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between; /* Keep space between logo and nav */
+    justify-content: center; /* Center the navigation horizontally */
     align-items: center;
     padding: 20px;
 }
 
-nav.nav1 { /* Target the specific navigation with class 'nav1' */
-    background-color: black; /* Set background color for the nav */
-    flex-grow: 1; /* Allow nav to take up available space */
-    text-align: center; /* Center the nav items */
+nav.nav1 { /* Target the navigation */
+    background-color: black;
+    text-align: center; /* Center the ul within the nav */
 }
 
 nav.nav1 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Use flexbox for centering within the nav */
-    justify-content: center; /* Center the list items horizontally */
+    display: inline-block; /* Allows centering of the ul */
 }
 
 nav.nav1 ul li {
     display: inline;
-    margin-right: 20px; /* Add right margin between list items */
+    margin-right: 20px;
 }
 
 nav.nav1 ul li:last-child {
-    margin-right: 0; /* Remove right margin from the last item */
+    margin-right: 0;
 }
 
 nav.nav1 ul li a {
@@ -44,12 +42,6 @@ nav.nav1 ul li a {
 header {
     background-color: black;
     padding: 10px 0;
-    display: flex; /* Use flexbox for header layout */
-    align-items: center;
-}
-
-header .logo h1 {
-    margin: 0;
 }
 
 /* New section for background image */
