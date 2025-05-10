@@ -13,7 +13,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1>My Website</h1>
+                <h1>Quervie Manrique</h1>
             </div>
 
             <!-- First navigation -->
@@ -24,13 +24,6 @@
                 </ul>
             </nav>
 
-            <!-- Second navigation -->
-            <nav class="nav2">
-                <ul>
-                    <li><a href="login.php">Login</a></li>
-                    <li><a href="signup.php">Sign Up</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
 </body>
