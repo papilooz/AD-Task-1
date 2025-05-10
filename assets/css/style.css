@@ -1,11 +1,18 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: black; /* Set background color to black for both navs */
 }
 
 nav ul {
@@ -21,10 +28,20 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: white; /* Set link color to white to contrast with black background */
+    padding: 10px;
 }
 
 header {
     background-color: #f4f4f4;
     padding: 20px;
+}
+
+/* New section for background image */
+.background-section {
+    background-image: url('your-image.jpg'); /* Replace 'your-image.jpg' with your actual image file */
+    background-size: cover; /* Ensure the image covers the whole width and height */
+    background-position: center;
+    height: 300px; /* You can adjust the height of the background image section */
+    width: 100%;
 }
