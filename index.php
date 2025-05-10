@@ -13,7 +13,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1>Quervie Manrique</h1>
+                <h1>My Website</h1>
             </div>
 
             <!-- First navigation -->
@@ -23,8 +23,12 @@
                     <li><a href="about.php">About</a></li>
                 </ul>
             </nav>
-
         </div>
     </header>
+
+    <!-- Background Section -->
+    <section class="background-section">
+        <!-- You can add content here if needed -->
+    </section>
 </body>
 </html>
