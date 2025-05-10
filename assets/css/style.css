@@ -46,7 +46,7 @@ header {
 
 /* New section for background image */
 .background-section {
-    background-image: url('your-image.jpg');
+    background-image: url('../img/sneaker.webp');
     background-size: cover;
     background-position: center;
     height: 300px;

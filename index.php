@@ -24,7 +24,7 @@
 
     <!-- Background Section -->
     <section class="background-section">
-        <!-- You can add content here if needed -->
+
     </section>
 </body>
 </html>
