@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 .container {
@@ -33,7 +34,7 @@ nav ul li a {
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: black; /* Changed background color to black */
     padding: 20px;
 }
 
