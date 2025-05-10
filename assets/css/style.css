@@ -7,42 +7,56 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Keep space between logo and nav */
     align-items: center;
     padding: 20px;
 }
 
-nav {
-    background-color: black; /* Set background color to black for both navs */
+nav.nav1 { /* Target the specific navigation with class 'nav1' */
+    background-color: black; /* Set background color for the nav */
+    flex-grow: 1; /* Allow nav to take up available space */
+    text-align: center; /* Center the nav items */
 }
 
-nav ul {
+nav.nav1 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex; /* Use flexbox for centering within the nav */
+    justify-content: center; /* Center the list items horizontally */
 }
 
-nav ul li {
+nav.nav1 ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 20px; /* Add right margin between list items */
 }
 
-nav ul li a {
+nav.nav1 ul li:last-child {
+    margin-right: 0; /* Remove right margin from the last item */
+}
+
+nav.nav1 ul li a {
     text-decoration: none;
-    color: white; /* Set link color to white to contrast with black background */
+    color: white;
     padding: 10px;
 }
 
 header {
-    background-color: black; /* Changed background color to black */
-    padding: 20px;
+    background-color: black;
+    padding: 10px 0;
+    display: flex; /* Use flexbox for header layout */
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
 }
 
 /* New section for background image */
 .background-section {
-    background-image: url('your-image.jpg'); /* Replace 'your-image.jpg' with your actual image file */
-    background-size: cover; /* Ensure the image covers the whole width and height */
+    background-image: url('your-image.jpg');
+    background-size: cover;
     background-position: center;
-    height: 300px; /* You can adjust the height of the background image section */
+    height: 300px;
     width: 100%;
 }
