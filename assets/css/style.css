@@ -169,7 +169,7 @@ header {
             align-items: center;
             gap: 15px;
             padding: 15px;
-           background-color: rgb(51, 36, 33);
+            background-color: rgb(51, 36, 33);
             border-radius: 8px;
             margin-top: 10px;
             transition: 0.3s ease;
@@ -192,7 +192,7 @@ header {
             position: absolute;
             animation: floatAnimation 1s infinite ease-in-out alternate;
         }
-        
+
         @keyframes floatAnimation {
             0% {
                 transform: translateY(0);
