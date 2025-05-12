@@ -17,7 +17,7 @@
             <nav class="nav1">
                 <ul>
                     <li><a href="index.php">About Me</a></li>
-                    <li><a href="about.php">Requirements</a></li>
+                    <li><a href="../page/Requirements.php">Requirements</a></li>
                 </ul>
             </nav>
         </div>
