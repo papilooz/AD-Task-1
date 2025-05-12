@@ -140,14 +140,37 @@ header {
         .left-content {
             position: relative;
         }
-        .trusted-box, .experience-box {
-        background-color: rgb(51, 36, 33);
-            color: #000000;
-            padding: 15px;
-            text-align: center;
-            border-radius: 8px;
-            position: absolute;
-        }
+.trusted-box {
+    background-image: url('../img/quervie.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    width: 150px; /* Set desired width */
+    height: 120px; /* Set desired height */
+}
+
+.experience-box {
+  background-image: url('../img/quervie.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    width: 150px; /* Set desired width */
+    height: 120px; /* Set desired height */
+}
+
+
+
+
         .trusted-box {
             top: -20px;
             left: -30px;
