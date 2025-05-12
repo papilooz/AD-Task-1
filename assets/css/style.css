@@ -1,10 +1,10 @@
 /* assets/css/style.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
-  
+    background: linear-gradient(135deg, #1e1e2f, #332626);
 }
 
 .container {
@@ -34,14 +34,40 @@ nav.nav1 ul li:last-child {
     margin-right: 0;
 }
 
+/* Regular state of links */
 nav.nav1 ul li a {
     text-decoration: none;
     color: white;
     padding: 10px;
+    position: relative; /* Needed for the underline effect */
+    transition: color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+/* Hover effect for links */
+nav.nav1 ul li a:hover {
+    color: #332626; /* Change text color on hover */
+    background-color: #6e12c4f1; /* Add a background color on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Animated underline effect */
+nav.nav1 ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.3s ease; /* Smooth width transition */
+}
+
+nav.nav1 ul li a:hover::after {
+    width: 100%; /* Full underline width on hover */
 }
 
 header {
-    background-color: rgb(51, 36, 33); /* Updated header background color */
+    background: linear-gradient(135deg, #1e1e2f, #332626);
     padding: 10px 0;
 }
 
@@ -71,7 +97,7 @@ header {
 
 /* Style for the floating packages section */
 .package-selection {
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #1e1e2f, #332626);
     border-radius: 15px;
     padding: 60px 20px; /* Adjusted padding */
     text-align: center;
@@ -103,7 +129,7 @@ header {
 .package-selection h2 {
     margin-top: 0;
     margin-bottom: 10px; /* Adjusted margin */
-    color: #2A5772;
+    color:  rgb(255, 255, 255);
     font-weight: 700;
     font-size: 2em; /* Adjusted heading size */
 }
@@ -157,7 +183,7 @@ header {
 }
 
 .icon-circle:hover {
-    background-color: #EE7D57;
+    background-color:  rgb(51, 36, 33);
     border-color: #4dd0e1;
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -184,7 +210,7 @@ header {
 .icon-nav-item h3 {
     margin-top: 8px;
     font-size: 0.9em; /* Adjusted heading size */
-    color: #444;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -195,7 +221,7 @@ header {
 .know-more {
     display: inline-block;
     padding: 8px 14px; /* Adjusted padding */
-    background-color: #2A5772;
+    background-color:  rgb(51, 36, 33);
     color: #fff;
     border-radius: 5px;
     font-size: 0.8em; /* Adjusted font size */
@@ -208,7 +234,7 @@ header {
 }
 
 .know-more:hover {
-    background-color: #EE7D57;
+    background-color: #503932;
     transform: scale(1.05);
 }
 
@@ -352,7 +378,7 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgb(177, 149, 113);
+    background: linear-gradient(135deg, #1e1e2f, #332626);
         }
         .container {
             display: flex;
@@ -376,7 +402,7 @@ header {
 }
 
 .experience-box {
-  background-image: url('../img/quervie.jpg');
+  background-image: url('../img/quervie1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
