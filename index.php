@@ -30,11 +30,11 @@
                 <div class="package-item">
                     <img src="assets/img/digital-printing-icon.png" alt="Digital Printing">
                 </div>
-                
-               
+
+
             </div>
         </div>
-          <section class="repair-section">
+ <section class="repair-section">
         <div class="container">
             <div class="left-content">
                 <div class="trusted-box">
