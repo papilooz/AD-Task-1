@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
+  
 }
 
 .container {
@@ -50,10 +51,10 @@ header {
     background-image: url('../img/sneaker.webp'); /* Adjust the path to your image */
     background-size: cover;
     background-position: center;
-    height: 450px; /* Adjust the height as needed */
+    height:650px;
     width: 100%;
     overflow: hidden;
-    opacity: 0.6;
+   
 }
 
 .background-section::before {
@@ -69,62 +70,282 @@ header {
 }
 
 /* Style for the floating packages section */
-.packages-container {
-    position: absolute; /* To float over the background */
-    top: 50%; /* Adjust as needed for vertical positioning */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center precisely */
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.package-selection {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 60px 20px; /* Adjusted padding */
     text-align: center;
-    z-index: 10; /* Ensure it's above the background overlay */
-}
-
-.packages-container h2 {
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.packages-grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.package-item {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    margin-top: 120px;
+    max-width: 960px;
+    width: 95%; /* Make it responsive width-wise */
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 40px;
+    opacity: 0;
+    transform: scale(0.9); /* Start slightly scaled down */
+    animation: scaleFadeIn 0.8s ease-out 0.6s forwards;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
 }
 
-.package-item img {
-    width: 50px; /* Adjust icon size */
-    height: 50px;
-    margin-bottom: 10px;
+@keyframes scaleFadeIn {
+    to {
+        opacity: 1;
+        transform: scale(1); /* Scale to its normal size */
+    }
 }
 
-.package-item span {
-    color: #555;
-    font-size: 0.9em;
+.package-selection h2 {
+    margin-top: 0;
+    margin-bottom: 10px; /* Adjusted margin */
+    color: #2A5772;
+    font-weight: 700;
+    font-size: 2em; /* Adjusted heading size */
+}
+
+.package-selection h2:first-child {
     margin-bottom: 5px;
 }
 
-.package-item a {
-    display: inline-block;
-    background-color: #2c3e50; /* Example button color */
-    color: white;
-    padding: 8px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 0.8em;
+.separator {
+    width: 50px; /* Adjusted separator width */
+    height: 3px; /* Adjusted separator height */
+    background-color: #bbb;
+    margin: 15px auto; /* Adjusted margin */
 }
 
-.package-item a:hover {
-    background-color: #34495e;
+.package-selection .subtitle {
+    color: #555;
+    margin-bottom: 30px; /* Adjusted margin */
+    font-size: 1em; /* Adjusted subtitle size */
+    font-weight: 300;
+}
+
+.event-types {
+    display: flex;
+    gap: 20px; /* Adjusted gap */
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-nav-item {
+    text-align: center;
+    width: auto; /* Adjust width for wrapping */
+}
+
+.icon-circle {
+    width: 100px; /* Adjusted circle size */
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon-circle:hover {
+    background-color: #EE7D57;
+    border-color: #4dd0e1;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+}
+
+.icon-circle img {
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: contain;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.icon-circle:hover img {
+    opacity: 0.8;
+}
+
+.icon-nav-item a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.icon-nav-item h3 {
+    margin-top: 8px;
+    font-size: 0.9em; /* Adjusted heading size */
+    color: #444;
+    font-weight: 600;
+}
+
+.icon-nav-item:hover h3 {
+    /* No change on hover for text */
+}
+
+.know-more {
+    display: inline-block;
+    padding: 8px 14px; /* Adjusted padding */
+    background-color: #2A5772;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.8em; /* Adjusted font size */
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.icon-nav-item:hover .know-more {
+    /* No change on hover for button */
+}
+
+.know-more:hover {
+    background-color: #EE7D57;
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .hero-section {
+        padding: 100px 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.2em;
+    }
+
+    .package-selection {
+        padding: 50px 20px;
+        margin-top: -40px;
+    }
+
+    .event-types {
+        gap: 15px;
+    }
+
+    .icon-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon-nav-item h3 {
+        font-size: 0.8em;
+    }
+
+    .know-more {
+        font-size: 0.7em;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 80px 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 2em;
+    }
+
+    .package-selection {
+        padding: 40px 15px;
+        margin-top: -20px;
+    }
+
+    .event-types {
+        gap: 10px;
+    }
+
+    .icon-circle {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon-nav-item h3 {
+        font-size: 0.7em;
+    }
+
+    .know-more {
+        font-size: 0.6em;
+        padding: 5px 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-section {
+        padding: 60px 15px;
+    }
+
+    .hero-content h2 {
+        font-size: 1.8em;
+    }
+
+    .package-selection {
+        padding: 30px 15px;
+        margin-top: 10px;
+    }
+
+    .event-types {
+        flex-direction: row; /* Keep icons in a row on slightly larger phones */
+        justify-content: space-around; /* Distribute icons more evenly */
+        gap: 10px;
+    }
+
+    .icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon-nav-item h3 {
+        font-size: 0.6em;
+    }
+
+    .know-more {
+        font-size: 0.5em;
+        padding: 4px 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 50px 10px;
+    }
+
+    .hero-content h2 {
+        font-size: 1.6em;
+    }
+
+    .package-selection {
+        padding: 20px 10px;
+        margin-top: 15px;
+    }
+
+    .event-types {
+        flex-direction: column; /* Stack icons on smaller phones */
+        align-items: center;
+        gap: 20px;
+    }
+
+    .icon-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon-nav-item h3 {
+        font-size: 0.7em;
+    }
+
+    .know-more {
+        font-size: 0.6em;
+    }
 }
 .repair-section {
             padding: 50px 10%;
@@ -141,7 +362,7 @@ header {
             position: relative;
         }
 .trusted-box {
-    background-image: url('../img/quervie.jpg');
+    background-image: url('../img/football.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -199,8 +420,8 @@ header {
             color: rgb(255, 255, 255);
         }
         .service-box:hover {
-            background: red;
-            color: rgb(0, 0, 0);
+            background: rgb(90, 70, 44);
+            color: rgb(255, 255, 255);
         }
         .service-box i {
             font-size: 24px;
@@ -226,12 +447,6 @@ header {
         }
         .work-process {
             padding: 50px 20px;
-        }
-        .section-title {
-            color: red;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
         }
         .main-title {
             font-size: 28px;
@@ -267,9 +482,11 @@ header {
             font-weight: bold;
         }
         p {
-            font-size: 14px;
-            color: #ffffff;
-        }
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
         .process-container::before {
             content: '';
             position: absolute;
@@ -284,4 +501,28 @@ header {
             opacity: 0.8;
             transition: 0.5s;
         }
+footer {
+    background-color:  rgb(51, 36, 33);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-container a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
 
