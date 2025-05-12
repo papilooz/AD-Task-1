@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #1e1e2f, #332626);
@@ -16,16 +16,15 @@ body {
     padding: 20px;
     flex-direction: column;
 }
-
-nav.nav1 {
-    text-align: center;
+nav.nav1 { /* Target the navigation */
+    text-align: center; /* Center the ul within the nav */
 }
 
 nav.nav1 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: inline-block;
+    display: inline-block; /* Allows centering of the ul */
 }
 
 nav.nav1 ul li {
@@ -37,14 +36,39 @@ nav.nav1 ul li:last-child {
     margin-right: 0;
 }
 
+/* Regular state of links */
 nav.nav1 ul li a {
     text-decoration: none;
     color: white;
     padding: 10px;
+    position: relative; /* Needed for the underline effect */
+    transition: color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
 }
 
+/* Hover effect for links */
+nav.nav1 ul li a:hover {
+    color: #332626; /* Change text color on hover */
+    background-color: #6e12c4f1; /* Add a background color on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Animated underline effect */
+nav.nav1 ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.3s ease; /* Smooth width transition */
+}
+
+nav.nav1 ul li a:hover::after {
+    width: 100%; /* Full underline width on hover */
+}
 header {
-    background-color: rgb(51, 36, 33);
+    background: linear-gradient(135deg, #1e1e2f, #332626);
     padding: 10px 0;
 }
 footer {
@@ -84,6 +108,7 @@ footer {
     flex-basis: 12%; /* Added flex-basis */
     flex-grow: 1; /* Added flex-grow */
     margin-left: -120px;
+    height: 230px;
 }
 
 .info-box:hover {
