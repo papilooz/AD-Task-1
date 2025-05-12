@@ -39,22 +39,22 @@
             <div class="left-content">
                 <div class="trusted-box">
                     <i class="fas fa-users"></i>
-                    <h2>Football</h2>
+
 
                 </div>
                 <img src="assets/img/quervie.jpg" alt="Mechanic " class="main-image">
                 <div class="experience-box">
                     <i class="fas fa-trophy"></i>
-                    <h2>Volleyball</h2>
+             
                 </div>
             </div>
             <div class="right-content">
-                <h1>I love my bebe rose ann </h1>
-                <p>test</p>
+                <h1>About Myself</h1>
+                <p>testsssssssssssss</p>
                 <div class="service-box">
                     <i class="fas fa-car"></i>
                     <div>
-                        <h4>test</h4>
+                        <h4>testssssssssssss</h4>
                         <p>test</p>
                     </div>
                 </div>
