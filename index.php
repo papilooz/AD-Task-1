@@ -7,9 +7,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AD-Task-1</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <link rel="icon" href="/assets/img/qwe.png" type="image/x-icon">
+      <link rel="icon" href="./assets/img/qwe.png" type="image/x-icon">
 
 
 </head>
@@ -20,7 +20,7 @@
             <nav class="nav1">
                 <ul>
                     <li><a href="index.php">About Me</a></li>
-                    <li><a href="../page/Requirements.php">AD-Task-1</a></li>
+                    <li><a href="./pages/requirements/index.php">AD-Task-1</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,18 +33,18 @@
         <div class="separator"></div>
         <div class="event-types icon-nav-container">
             <div class="event-item icon-nav-item">
-                <a href="../page/Requirements.php">
+                <a href="./pages/requirements/index.php">
                     <div class="icon-circle">
-                        <img src="/assets/img/declar.png" alt="">
+                        <img src="./assets/img/declar.png" alt="">
                     </div>
                     <h3>Declarations</h3>
                     <span class="know-more">Show</span>
                 </a>
             </div>
             <div class="event-item icon-nav-item">
-                <a href="../page/Requirements.php">
+                <a href="./pages/requirements/index.php">
                     <div class="icon-circle">
-                        <img src="/assets/img/declar.png" alt="">
+                        <img src="./assets/img/declar.png" alt="">
                     </div>
                     <h3>Conditional</h3>
                                        <span class="know-more">Show</span>
@@ -52,9 +52,9 @@
                 </a>
             </div>
              <div class="event-item icon-nav-item">
-                <a href="../page/Requirements.php">
+                <a href="./pages/requirements/index.php">
                     <div class="icon-circle">
-                        <img src="/assets/img/declar.png" alt="">
+                        <img src="./assets/img/declar.png" alt="">
                     </div>
                     <h3>Looping</h3>
                  <span class="know-more">Show</span>
@@ -74,7 +74,7 @@
 
 
                 </div>
-                <img src="assets/img/quervie.jpg" alt=" " class="main-image">
+                <img src="./assets/img/quervie.jpg" alt=" " class="main-image">
                 <div class="experience-box">
                     <i class="fas fa-trophy"></i>
 
@@ -104,13 +104,13 @@
         <p>&copy; 2025 Quervie Manrique. All rights reserved.</p>
         <p>Follow me on 
             <a href="https://www.facebook.com/kervimanrique/" target="_blank">
-                <img src="assets/img/facebook.png" alt="Facebook" class="social-icon">
+                <img src="./assets/img/facebook.png" alt="Facebook" class="social-icon">
             </a> 
             <a href="https://www.instagram.com/qrvi146/" target="_blank">
-                <img src="assets/img/instagram.png" alt="Instagram" class="social-icon">
+                <img src="./assets/img/instagram.png" alt="Instagram" class="social-icon">
             </a> 
             <a href="https://ph.linkedin.com/in/quervie-manrique-9863a928b" target="_blank">
-                <img src="assets/img/linkedin.png" alt="LinkedIn" class="social-icon">
+                <img src="./assets/img/linkedin.png" alt="LinkedIn" class="social-icon">
             </a>
         </p>
         <p>Contact: manriquequervie@gmail.com</p>
