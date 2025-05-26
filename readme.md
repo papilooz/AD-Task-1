@@ -139,7 +139,8 @@ AD-Task-1
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Font Icons | Adding font icons on the website | https://fontawesome.com/icons/trophy?style=solid |
-| Floating Objects | Object animation for aesthetic | https://www.w3schools.com/bootstrap5/bootstrap_form_floating_labels.php |
+| Title            | Purpose                                           | Link          |
+| ---------------- | --------------------------------------------------| ------------- |
+| Font Icons       | Adding font icons on the website                  | https://fontawesome.com/icons/trophy?style=solid |
+| Floating Objects | Object animation for aesthetic                    | https://www.w3schools.com/bootstrap5/bootstrap_form_floating_labels.php |
+
