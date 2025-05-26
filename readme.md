@@ -107,9 +107,18 @@ AD-Task-1
         └─ style.css
 |   └─ img
 |   |   └─ declar.png
+        └─ declaration.png
+        └─ elite.png
         └─ facebook.png
-        └─ football.png
+        └─ football.jpg
+        └─ grad.png
+        └─ instagram.png
+        └─ linkedin.png
         └─ looping.png
+        └─ quervie.jpg
+        └─ quervie1.jpg
+        └─ qwe.png
+        └─ sneaker.webp
 |   └─ js
 |       └─ script.js
 └─ components
@@ -117,13 +126,6 @@ AD-Task-1
 └─ pages
 |  └─ requirements
           └─index.php
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ name.css
-|     |  └─ img
-|     |  |  └─ name.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ name.js
 |     └─
       └─ requirements.php
 └─ utils
