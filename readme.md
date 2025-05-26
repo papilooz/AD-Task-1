@@ -68,8 +68,11 @@ Description of the project in details.
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Event Handling
+- Client Request
+- Declarations
+- Conditional
+- Looping
 
 ### Technology
 
