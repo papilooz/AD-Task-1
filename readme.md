@@ -135,8 +135,13 @@ AD-Task-1
       └─ requirements.php
 └─ utils
 |   └─ Name.utils.php
+└─ gitignore
+└─ bootstrap.php
+└─ composer.json
+└─ composer.lock
 └─ index.php
 └─ readme.md
+└─ router.php
 ```
 > The following should be renamed: name.css, name.js, name.jpeg/.jpg/.webp/.png, name.component.php(but not the part of the `component.php`), Name.utils.php(but not the part of the `utils.php`)
 
