@@ -139,7 +139,7 @@ AD-Task-1
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Font Icons | Adding font icons on the website | https://fontawesome.com/icons/trophy?style=solid |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
