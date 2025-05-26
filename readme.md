@@ -9,11 +9,11 @@
   </a>
 
   <!-- TODO: Change Title to the name of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">The Elite</h3>
 
   <!-- TODO: Make a short description -->
   <div align="center">
-    Short Description. (Optional)
+    Crafting exceptional digital experiences with precision, creativity, and cutting-edge design.
   </div>
 </div>
 
