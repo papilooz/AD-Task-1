@@ -5,7 +5,7 @@
 <div align="center">
   <a href="https://github.com/papilooz/AD-Task-1.git">
     <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/elite.png" alt="Elite" width="130" height="100">
+    <img src="../assets/img/elite.png" alt="Elite" width="130" height="100">
   </a>
 
   <!-- TODO: Change Title to the name of your Project -->
